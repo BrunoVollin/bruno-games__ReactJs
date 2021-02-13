@@ -4,8 +4,7 @@ export const Wrapper = styled.div`
 	height: 289px;
 	width: 216px;
 
-	margin-left: 200px;
-	margin-top: 200px;
+	margin: 10px;
 	padding: 10px;
 
 	color: white;
@@ -19,11 +18,12 @@ export const Wrapper = styled.div`
 
 	background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.90)),
-    /* url('https://upload.wikimedia.org/wikipedia/pt/f/f7/Cyberpunk_2077_capa.png'); */
 		url(${props => props.urlImg});
 		background-position: center;
+		background-size:cover;
 	background-position-y: 0px;
 
+	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.8);
 
 	h1{
 		font-size: 25px;
@@ -68,5 +68,7 @@ export const Bottom = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
+
+	
 `;

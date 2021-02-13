@@ -1,3 +1,6 @@
 export default function (num, per) {
-    return Math.round(((num / 100) * per) * 100).toFixed(1);
+    const percent = Math.round((num * 100) / per);
+    
+    const rebate = 100 - percent.toFixed(0);
+    return rebate;
 }

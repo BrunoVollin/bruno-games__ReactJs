@@ -1,0 +1,43 @@
+{
+    "products" : [
+        {
+            "id": "9d08c3d5-1960-5445-98b7-51fa4fcbadaa",
+            "type": "game",
+            "url": "https://upload.wikimedia.org/wikipedia/pt/f/f7/Cyberpunk_2077_capa.png",
+            "name": "Cyber Punk 2077",
+            "company": "CD PROJECT RED",
+            "checked": false,
+            "newPrice": 200.00,
+            "oldPrice": 259.99,
+            "tags": [
+                "futuristic"
+            ]
+        },
+        {
+            "id": "9d08c3d5-1960-5445-98b7-51fa4fcbadab",
+            "type": "game",
+            "url": "https://uploads.jovemnerd.com.br/wp-content/uploads/2018/03/Far-Cry-5-1210x544.jpg",
+            "name": "Far Cry 5",
+            "company": "Ubidoft",
+            "checked": false,
+            "newPrice": 200.00,
+            "oldPrice": 259.99,
+            "tags": [
+                "fps"
+            ]
+        },
+        {
+            "id": "9d08c3d5-1960-5445-98b7-51fa4fcbadac",
+            "type": "game",
+            "url": "https://store-images.s-microsoft.com/image/apps.32777.71852236933429320.e410a0a7-7c27-4346-b4e3-8b0a663a4829.33f974ce-0c47-43b9-9420-c4c3ad03a542?mode=scale&q=90&h=1080&w=1920&format=jpg",
+            "name": "Call of Duty: black ops 2",
+            "company": "treyarch", 
+            "checked": false,
+            "newPrice": 200.00,
+            "oldPrice": 259.99,
+            "tags": [
+                "fps"
+            ]
+        }
+    ]
+}

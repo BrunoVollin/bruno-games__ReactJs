@@ -12,6 +12,7 @@ const OfferCard = ({ name, developer, oldPrice, newPrice, urlImg }) => {
           style: "currency",
           currency: "BRL",
         })}
+        {/* R${oldPrice} */}
       </p>
       <Bottom>
         <p className="new-Price">
@@ -19,6 +20,7 @@ const OfferCard = ({ name, developer, oldPrice, newPrice, urlImg }) => {
             style: "currency",
             currency: "BRL",
           })}
+          {/* R${newPrice} */}
         </p>
         <p className="percentage-off">{percent(newPrice, oldPrice)}%</p>
       </Bottom>
