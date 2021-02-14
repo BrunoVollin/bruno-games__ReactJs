@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+const noDisplay = "display: none;";
 export const Wrapper = styled.div`
 	height: 289px;
 	width: 216px;
@@ -13,14 +14,13 @@ export const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	${props => props.value ? noDisplay : "" }
 
 	background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.90)),
 		url(${props => props.urlImg});
 		background-position: center;
-		background-size:cover;
+		background-size: cover;
 	background-position-y: 0px;
 
 	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.8);
