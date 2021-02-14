@@ -20,8 +20,8 @@
             "name": "Far Cry 5",
             "company": "Ubidoft",
             "checked": false,
-            "newPrice": 200.00,
-            "oldPrice": 259.99,
+            "newPrice": 149.99,
+            "oldPrice": 199.99,
             "tags": [
                 "fps"
             ]
@@ -33,8 +33,8 @@
             "name": "Call of Duty: black ops 2",
             "company": "treyarch", 
             "checked": false,
-            "newPrice": 200.00,
-            "oldPrice": 259.99,
+            "newPrice": 20.00,
+            "oldPrice": 59.99,
             "tags": [
                 "fps"
             ]

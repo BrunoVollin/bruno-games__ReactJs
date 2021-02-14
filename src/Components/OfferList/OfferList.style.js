@@ -13,7 +13,3 @@ export const MapOffers = styled.div`
     flex-direction: row;
 `;
 
-export const Title = styled.h1`
-    margin-bottom: 5px;
-    font-weight:600;
-`;

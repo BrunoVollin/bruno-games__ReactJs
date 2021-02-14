@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-const noDisplay = "display: none;";
+const wrapperGray = "filter: grayscale(100%);";
+
 export const Wrapper = styled.div`
 	height: 289px;
 	width: 216px;
@@ -14,7 +15,7 @@ export const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	${props => props.value ? noDisplay : "" }
+	${props => props.value ? wrapperGray : "" }
 
 	background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.90)),
@@ -69,6 +70,4 @@ export const Bottom = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-
-	
 `;

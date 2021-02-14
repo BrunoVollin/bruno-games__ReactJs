@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CartShopping from "../CartShopping/CartShopping";
 import OfferList from "../OfferList/OfferList";
 import { Wrapper } from "./App.style";
@@ -7,10 +7,16 @@ import products from "../mocks/games.json";
 
 const App = () => {
   const [games, setGames] = useState(products.products)
+  const [selectedGames, setSelectedGames] = useState([]);
+
+  useEffect(() => {
+    const newSelectedGames = games.filter(game => game.checked);
+
+    setSelectedGames(newSelectedGames);
+  }, [games])
 
   function handleToggle(id) {
-    console.log(games);
-    const newGames = games.map(game => 
+    const newGames = games.map(game =>
       game.id === id ? { ...game, checked: !game.checked } : game
     )
     setGames(newGames);
@@ -19,7 +25,7 @@ const App = () => {
   return (
     <Wrapper>
       <OfferList title="Offers List" games={games} onToggle={handleToggle} />
-      <CartShopping />
+      <CartShopping selectedGames={selectedGames} />
     </ Wrapper>
   );
 };
