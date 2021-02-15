@@ -5,7 +5,7 @@ const PriceCard = ({ selectedGames }) => {
   const total = selectedGames.reduce((total, item) => total + item.newPrice, 0);
   return (
     <Wrapper>
-      <h2>total</h2>
+      <h2>Total:</h2>
       <h2>
         {total.toLocaleString("pt-br", {
           style: "currency",

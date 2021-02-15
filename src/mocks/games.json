@@ -30,7 +30,7 @@
             "id": "3",
             "type": "game",
             "url": "https://store-images.s-microsoft.com/image/apps.32777.71852236933429320.e410a0a7-7c27-4346-b4e3-8b0a663a4829.33f974ce-0c47-43b9-9420-c4c3ad03a542?mode=scale&q=90&h=1080&w=1920&format=jpg",
-            "name": "Call of Duty: black ops 2",
+            "name": "Black Ops 2",
             "company": "Treyarch", 
             "checked": false,
             "newPrice": 20.00,
@@ -43,7 +43,7 @@
             "id": "4",
             "type": "game",
             "url": "https://assets1.ignimgs.com/2020/08/20/cod-black-ops-cold-war-cover-1597947738556.jpg",
-            "name": "Call of Duty: Cold War",
+            "name": "Cold War",
             "company": "Treyarch", 
             "checked": false,
             "newPrice": 20.00,
@@ -55,15 +55,82 @@
         {
             "id": "5",
             "type": "game",
-            "url": "https://store-images.s-microsoft.com/image/apps.32777.71852236933429320.e410a0a7-7c27-4346-b4e3-8b0a663a4829.33f974ce-0c47-43b9-9420-c4c3ad03a542?mode=scale&q=90&h=1080&w=1920&format=jpg",
-            "name": "Call of Duty: black ops 2",
-            "company": "Treyarch", 
+            "url": "https://sm.ign.com/ign_br/screenshot/default/20200514-assassins-creed-valhalla_rg45.jpg",
+            "name": "Assassin's Creed Valhalla",
+            "company": "Ubisoft", 
             "checked": false,
-            "newPrice": 20.00,
-            "oldPrice": 59.99,
+            "newPrice": 165.99,
+            "oldPrice": 199.99,
             "tags": [
                 "fps"
             ]
+        },
+        {
+            "id": "6",
+            "type": "game",
+            "url": "https://cdn.wccftech.com/wp-content/uploads/2020/11/call-of-duty-black-ops.jpg",
+            "name": "Black Ops",
+            "company": "Treyarch", 
+            "checked": false,
+            "newPrice": 165.99,
+            "oldPrice": 199.99,
+            "tags": [
+                "fps"
+            ]
+        },
+        {
+            "id": "7",
+            "type": "game",
+            "url": "https://cdn-cf.gamivo.com/image_cover.jpg?f=212&n=19be9450-784b-11e7-8203-abacaa3272cd.jpg&h=853c243f6b309fac7ed614b28eae3115",
+            "name": "Modern Warfare 3",
+            "company": "Infinity Ward", 
+            "checked": false,
+            "newPrice": 200,
+            "oldPrice": 299.99,
+            "tags": [
+                "fps"
+            ]
+        },
+        {
+            "id": "8",
+            "type": "game",
+            "url": "https://media.contentapi.ea.com/content/dam/gin/images/2017/01/bf4-keyart.jpg.adapt.crop1x1.767p.jpg",
+            "name": "Battle Field 4",
+            "company": "EA Games", 
+            "checked": false,
+            "newPrice": 200,
+            "oldPrice": 299.99,
+            "tags": [
+                "fps"
+            ]
+        },
+        {
+            "id": "9",
+            "type": "game",
+            "url": "https://www.gamereactor.pt/media/63/callduty_2766303b.jpg",
+            "name": "Modern Warfare 2",
+            "company": "Infinity Ward",  
+            "checked": false,
+            "newPrice": 200,
+            "oldPrice": 299.99,
+            "tags": [
+                "fps"
+            ]
+        },
+        {
+            "id": "10",
+            "type": "game",
+            "url": "https://www.godisageek.com/wp-content/uploads/Arkham-Asylum.jpg",
+            "name": "Batman  Arkham Asylum",
+            "company": "Rocksteady Studios",  
+            "checked": false,
+            "newPrice": 200,
+            "oldPrice": 299.99,
+            "tags": [
+                "hero"
+            ]
         }
+
+
     ]
 }

@@ -5,6 +5,7 @@ import { Wrapper } from "./App.style";
 import products from "../../mocks/games.json";
 import AppContainer from "../AppContainer/AppContainer";
 import PriceCard from "../PriceCart/PriceCart";
+import Header from "../Header/Header";
 
 
 const App = () => {
@@ -25,14 +26,18 @@ const App = () => {
   }
 
   return (
-    <AppContainer
-      left={<OfferList title="Offers List" games={games} onToggle={handleToggle} />}
-      right={<>
-        <CartShopping selectedGames={selectedGames} />
-        <PriceCard selectedGames={selectedGames} />
-      </>
-      }
-    />
+    <Wrapper>
+      <Header />
+      <AppContainer
+        left={<OfferList title="Offers List" games={games} onToggle={handleToggle} />}
+        right={<>
+          <CartShopping selectedGames={selectedGames} />
+          <PriceCard selectedGames={selectedGames} />
+        </>
+        }
+      />
+    </Wrapper>
+
   );
 };
 
