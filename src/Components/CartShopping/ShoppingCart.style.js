@@ -4,10 +4,8 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 50%;
 
-    background-color: #252525;
-    width: 50%;
-
-    transition: .5s ease; 
+    background-color: blue;
 `;
 

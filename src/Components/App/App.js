@@ -3,6 +3,7 @@ import CartShopping from "../CartShopping/ShoppingCart";
 import OfferList from "../OfferList/OfferList";
 import { Wrapper } from "./App.style";
 import products from "../../mocks/games.json";
+import AppContainer from "../AppContainer/AppContainer";
 
 
 const App = () => {
@@ -23,10 +24,10 @@ const App = () => {
   }
 
   return (
-    <Wrapper>
-      <OfferList title="Offers List" games={games} onToggle={handleToggle} />
-      <CartShopping selectedGames={selectedGames} />
-    </ Wrapper>
+    <AppContainer
+      left={<OfferList title="Offers List" games={games} onToggle={handleToggle} />}
+      right={<CartShopping selectedGames={selectedGames} />}
+    />
   );
 };
 
