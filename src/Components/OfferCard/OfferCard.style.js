@@ -36,9 +36,12 @@ export const Wrapper = styled.div`
 	}
 	transition: .5s ease; 
 
+
 	h1{
 		font-size: 25px;
 	}
+}
+
 	h2 {
 		font-size: 15px;
 	}

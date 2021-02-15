@@ -1,7 +1,7 @@
 {
     "products" : [
         {
-            "id": "9d08c3d5-1960-5445-98b7-51fa4fcbadaa",
+            "id": "1",
             "type": "game",
             "url": "https://upload.wikimedia.org/wikipedia/pt/f/f7/Cyberpunk_2077_capa.png",
             "name": "Cyber Punk 2077",
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "id": "9d08c3d5-1960-5445-98b7-51fa4fcbadab",
+            "id": "2",
             "type": "game",
             "url": "https://uploads.jovemnerd.com.br/wp-content/uploads/2018/03/Far-Cry-5-1210x544.jpg",
             "name": "Far Cry 5",
@@ -27,11 +27,37 @@
             ]
         },
         {
-            "id": "9d08c3d5-1960-5445-98b7-51fa4fcbadac",
+            "id": "3",
             "type": "game",
             "url": "https://store-images.s-microsoft.com/image/apps.32777.71852236933429320.e410a0a7-7c27-4346-b4e3-8b0a663a4829.33f974ce-0c47-43b9-9420-c4c3ad03a542?mode=scale&q=90&h=1080&w=1920&format=jpg",
             "name": "Call of Duty: black ops 2",
-            "company": "treyarch", 
+            "company": "Treyarch", 
+            "checked": false,
+            "newPrice": 20.00,
+            "oldPrice": 59.99,
+            "tags": [
+                "fps"
+            ]
+        },
+        {
+            "id": "4",
+            "type": "game",
+            "url": "https://assets1.ignimgs.com/2020/08/20/cod-black-ops-cold-war-cover-1597947738556.jpg",
+            "name": "Call of Duty: Cold War",
+            "company": "Treyarch", 
+            "checked": false,
+            "newPrice": 20.00,
+            "oldPrice": 59.99,
+            "tags": [
+                "fps"
+            ]
+        },
+        {
+            "id": "5",
+            "type": "game",
+            "url": "https://store-images.s-microsoft.com/image/apps.32777.71852236933429320.e410a0a7-7c27-4346-b4e3-8b0a663a4829.33f974ce-0c47-43b9-9420-c4c3ad03a542?mode=scale&q=90&h=1080&w=1920&format=jpg",
+            "name": "Call of Duty: black ops 2",
+            "company": "Treyarch", 
             "checked": false,
             "newPrice": 20.00,
             "oldPrice": 59.99,

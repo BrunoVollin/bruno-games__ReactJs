@@ -32,6 +32,13 @@ export const CartInfos = styled.div`
     margin: 10px;
 `;
 
+export const Name = styled.div`
+	h3{
+		font-weight: 400;
+		color: #A1A1A1;
+	}
+`;
+
 export const Prices = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -49,6 +56,12 @@ export const Prices = styled.div`
 
 		color: #a3d39c;
 		font-weight: 600;
+	}
+
+	h4 {
+		display:flex;
+		justify-content: flex-end;
+		font-weight: 300;
 	}
 `;
 

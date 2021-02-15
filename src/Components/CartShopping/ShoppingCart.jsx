@@ -7,7 +7,7 @@ const ShoppingCart = ({ selectedGames }) => {
     <Wrapper>
       <h1>Shopping Cart</h1>
       {selectedGames.map((game) => (
-        <CardItem name={game.name} urlImg={game.url} newPrice={game.newPrice}  oldPrice={game.oldPrice} />
+        <CardItem name={game.name} urlImg={game.url} newPrice={game.newPrice}  oldPrice={game.oldPrice} company={game.company} />
       ))}
     </Wrapper>
   );
