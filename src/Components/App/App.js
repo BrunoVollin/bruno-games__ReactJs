@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import CartShopping from "../CartShopping/CartShopping";
+import CartShopping from "../CartShopping/ShoppingCart";
 import OfferList from "../OfferList/OfferList";
 import { Wrapper } from "./App.style";
-import products from "../mocks/games.json";
+import products from "../../mocks/games.json";
 
 
 const App = () => {

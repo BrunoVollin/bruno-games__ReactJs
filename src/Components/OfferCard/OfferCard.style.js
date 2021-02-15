@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	${props => props.value ? wrapperGray : "" }
+	${props => props.value ? wrapperGray : ""}
 
 	background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.90)),
@@ -25,6 +25,16 @@ export const Wrapper = styled.div`
 	background-position-y: 0px;
 
 	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.8);
+
+	&:hover{
+		background-image:
+    		linear-gradient(to bottom,rgba(255,255, 255, 0.20), rgba(0, 0, 0, 0.70) ),
+				url(${props => props.urlImg});
+				background-position: center;
+				background-position-y: 0px;
+				
+	}
+	transition: .5s ease; 
 
 	h1{
 		font-size: 25px;

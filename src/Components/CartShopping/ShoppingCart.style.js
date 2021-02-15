@@ -6,5 +6,8 @@ export const Wrapper = styled.div`
     align-items: center;
 
     background-color: #252525;
-    width: 30%;
+    width: 50%;
+
+    transition: .5s ease; 
 `;
+
