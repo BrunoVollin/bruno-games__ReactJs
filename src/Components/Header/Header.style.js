@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    position: sticky; 
+    position: fixed; 
     top: 0;
 
     display:flex;
@@ -10,7 +10,6 @@ export const Wrapper = styled.div`
     width:100%;
     height: 70px;
     background-color: black;
-    overflow-y: hidden;
 
     .color-orange {
         color: orange;

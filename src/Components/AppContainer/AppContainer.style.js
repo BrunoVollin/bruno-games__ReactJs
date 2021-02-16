@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    overflow-y: auto;
+    display:flex;
 `;
+
 
 export const Left = styled.div`
     background-color: #363636;

@@ -27,7 +27,6 @@ const App = () => {
 
   return (
     <Wrapper>
-      <Header />
       <AppContainer
         left={<OfferList title="Offers List" games={games} onToggle={handleToggle} />}
         right={<>

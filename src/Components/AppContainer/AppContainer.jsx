@@ -1,11 +1,14 @@
-import React from 'react';
-import { Left, Right, Wrapper } from './AppContainer.style';
+import React from "react";
+import Header from "../Header/Header";
+import { Body, Left, Right, Wrapper } from "./AppContainer.style";
 
-const AppContainer = ({left, right}) => {
-    return ( <Wrapper>
+const AppContainer = ({ left, right }) => {
+  return (
+    <Wrapper>
         <Left>{left}</Left>
         <Right>{right}</Right>
-    </Wrapper> );
-}
- 
+    </Wrapper>
+  );
+};
+
 export default AppContainer;
