@@ -1,7 +1,7 @@
 # BrunoGames
 
 <p align="center">
-  <img height="450" src="src/assets/toRead.me/gif2.gif" />
+  <img height="550" src="src/assets/toRead.me/gif2.gif" />
 </p>
 
 ## About The Project :mag:
